@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BTL_PTUDPM</string>
+    <string name="sign_up"><u>Sign up</u></string>
+    <string name="forgot_pass"><u>Forgot your password?</u></string>
+    <string name="back_to_login"><u>Back to Sign in</u></string>
+
+    <string name="hold_the_card">Hold the card to reveal it!</string>
+    <string name="tap_the_card">Tap the card to set it and pick another one!</string>
+</resources>

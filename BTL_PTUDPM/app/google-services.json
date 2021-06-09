@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "798608579029",
+    "project_id": "btl-ptudpm",
+    "storage_bucket": "btl-ptudpm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798608579029:android:50d06c9a67cacceadd455c",
+        "android_client_info": {
+          "package_name": "com.ntxq.btl_ptudpm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798608579029-nmno52b94ganb1g8jdq7cob4fgglot66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCfqXIQdta6j7tatYhfdAJUXVY-fjFDXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798608579029-nmno52b94ganb1g8jdq7cob4fgglot66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

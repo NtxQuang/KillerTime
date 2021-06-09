@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1">
+
+    <ImageButton
+        android:id="@+id/btn_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_view"
+        android:padding="5dp"
+        android:src="@drawable/ic_baseline_notifications_off_24"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_view"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_guide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Pick your Zodiac\nand see its astrology today!"
+            android:textColor="#FFEB3B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/frame_with_3dp_stroke"
+        android:orientation="vertical"
+        android:padding="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/aries"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_view3"
+                android:padding="15dp"
+                android:src="@drawable/aries" />
+
+            <ImageView
+                android:id="@+id/aquarius"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_view3"
+                android:padding="15dp"
+                android:src="@drawable/aquarius" />
+
+            <ImageView
+                android:id="@+id/cancer"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_view3"
+                android:padding="15dp"
+                android:src="@drawable/cancer" />
+
+            <ImageView
+                android:id="@+id/capricorn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_view3"
+                android:padding="15dp"
+                android:src="@drawable/capricorn" />
+
+            <ImageView
+                android:id="@+id/gemini"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_view3"
+                android:padding="15dp"
+                android:src="@drawable/gemini" />
+
+            <ImageView
+                android:id="@+id/leo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_view3"
+                android:padding="15dp"
+                android:src="@drawable/leo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/libra"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_view3"
+                android:padding="15dp"
+                android:src="@drawable/libra" />
+
+            <ImageView
+                android:id="@+id/pisces"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_view3"
+                android:padding="15dp"
+                android:src="@drawable/pisces" />
+
+            <ImageView
+                android:id="@+id/sagittarius"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_view3"
+                android:padding="15dp"
+                android:src="@drawable/sagittarius" />
+
+            <ImageView
+                android:id="@+id/scorpio"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_view3"
+                android:padding="15dp"
+                android:src="@drawable/scorpio" />
+
+            <ImageView
+                android:id="@+id/taurus"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_view3"
+                android:padding="15dp"
+                android:src="@drawable/taurus" />
+
+            <ImageView
+                android:id="@+id/virgo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_view3"
+                android:padding="15dp"
+                android:src="@drawable/virgo" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_astro_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_view"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_zodiac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:text="Zodiac"
+                android:textColor="#FFEB3B"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFEB3B"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tv_horoscope"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
